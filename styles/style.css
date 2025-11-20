@@ -54,13 +54,14 @@
   font-weight: 500;
   height: 128px;
   max-width: 635px;
+  margin-top: 0;
 }
 
 .header__description {
   max-width: 515px;
   font-size: 20px;
   line-height: 30px;
-  height: 32px;
+  margin-top: 32px;
 }
 
 .header__image {
@@ -284,9 +285,8 @@
   margin: 0 auto;
   text-align: center;
   font-size: 44px;
-  font-weight: 500;
+  font-weight: 500 bold;
   line-height: 52px;
-  font-weight: bold;
 }
 
 .membership__steps {
@@ -351,10 +351,9 @@
 
 .footer__column-heading {
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 500 bold;
   line-height: 60px;
   margin: 0;
-  font-weight: bold;
   margin-bottom: 20px;
 }
 
