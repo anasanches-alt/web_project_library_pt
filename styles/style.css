@@ -33,7 +33,14 @@
 .nav__links {
   display: flex;
   column-gap: 20px;
-  list-style: none;
+  list-style-type: none;
+  margin-top: 8px;
+  padding-left: 0;
+}
+
+.nav__link:hover {
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
 }
 
 .nav__link {
@@ -54,14 +61,14 @@
   font-weight: 500;
   height: 128px;
   max-width: 635px;
-  margin-top: 0;
+  margin-top: 32px;
 }
 
 .header__description {
   max-width: 515px;
   font-size: 20px;
   line-height: 30px;
-  margin-top: 32px;
+  margin-top: 0;
 }
 
 .header__image {
@@ -71,6 +78,7 @@
 .staff {
   background-image: url("../images/staff_picks_background.jpg");
   padding: 100px 0 140px;
+  background-size: cover;
 }
 
 .staff__cards {
@@ -118,15 +126,29 @@
 
 .card__title {
   text-align: left;
+  font-size: 20px;
+  line-height: 26px;
+  margin: 0;
 }
 
 .card__text {
   color: #000000;
+  font-size: 16px;
+  line-height: 25px;
+  margin-top: 20px;
+  margin-right: 0;
+  margin-left: 0;
+  margin-bottom: 0;
 }
 
 .card__footer {
   margin-top: auto;
-  color: grey;
+  color: rgb(187, 176, 176);
+  font-size: 14px;
+  line-height: auto;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
 }
 
 .header__footer {
